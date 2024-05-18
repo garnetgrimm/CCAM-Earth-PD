@@ -1,0 +1,10 @@
+#N canvas 0 25 450 300 12;
+#X obj -124 -278 loadbang;
+#X obj -124 -181 tgl 25 0 empty empty empty 17 7 0 10 #e4e4e4 #4d4d4d #373737 0 1;
+#X obj -124 -246 tgl 25 0 empty empty empty 17 7 0 10 #e4e4e4 #4d4d4d #373737 0 1;
+#X obj -124 -210 metro 100;
+#X obj -124 -143 s led0 @hv_param;
+#X connect 0 0 2 0;
+#X connect 1 0 4 0;
+#X connect 2 0 3 0;
+#X connect 3 0 1 0;
